@@ -17,13 +17,13 @@ pip install -r requirements.txt
 Train on the hc3 dataset
 
 ```bash
-$ bash bash/run.sh train
+./scripts/train.sh
 ```
 
 Inference on the chatgpt dataset
 
 ```bash
-$ bash bash/run.sh val
+./scripts/valid.sh
 ```
 
 #### Citation

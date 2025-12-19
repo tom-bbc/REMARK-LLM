@@ -28,6 +28,7 @@ from ...utils import (
 _import_structure = {
     "configuration_bert": ["BERT_PRETRAINED_CONFIG_ARCHIVE_MAP", "BertConfig", "BertOnnxConfig"],
     "tokenization_bert": ["BasicTokenizer", "BertTokenizer", "WordpieceTokenizer"],
+    "tokenization_bert_fast": ["BertTokenizerFast"]
 }
 
 try:

@@ -1,0 +1,4 @@
+.env/
+__pycache__/
+logs_text_wm/
+nlp_dataset/

@@ -1,8 +1,11 @@
+bert_score
 torch
 numpy
 matplotlib
-datasets
+datasets<4.0.0
 nltk
 evaluate
 safetensors
 sentencepiece
+bert_score
+tokenizers<0.14
