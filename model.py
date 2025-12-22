@@ -115,6 +115,7 @@ def generate_paraphrases(sentence, top_k=120, top_p=0.9, device="cuda", max_leng
             and sent != ""
         ):
             final_outputs.append(sent)
+
     # random choose non empty paraphrase from final_outputs
     import random
 

@@ -16,7 +16,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --train_semantic_loss cross_entrophy \
     --message_max_length 16 \
     --wm_embed_model t5 \
-    --debug 1 \
+    --debug 0 \
     --visualize 1 \
     --target_text_type original \
     --wm 1 \

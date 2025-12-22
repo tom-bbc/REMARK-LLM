@@ -1,9 +1,9 @@
 #!/bin/bash
 
-CUDA_VISIBLE_DEVICES=0 python inference.py \
-    --load_path  ./logs_text_wm/debug \
+CUDA_VISIBLE_DEVICES=0 python evaluation.py \
+    --load_path  ./logs_text_wm/model \
     --dataset "NicolaiSivesind/ChatGPT-Research-Abstracts" \
-    --save_path  ./logs_text_wm/debug \
+    --save_path  ./logs_text_wm/model \
     --model_path t5-base \
     --input_max_length 80 \
     --target_max_length 80 \
